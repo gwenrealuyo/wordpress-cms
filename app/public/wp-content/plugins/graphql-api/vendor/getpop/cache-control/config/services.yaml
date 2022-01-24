@@ -1,0 +1,11 @@
+services:
+    _defaults:
+        public: true
+        autowire: true
+        autoconfigure: true
+
+    PoP\CacheControl\Managers\CacheControlEngineInterface:
+        class: \PoP\CacheControl\Managers\CacheControlEngine
+
+    PoP\CacheControl\Managers\CacheControlManagerInterface:
+        class: \PoP\CacheControl\Managers\CacheControlManager

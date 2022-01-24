@@ -1,0 +1,32 @@
+services:
+    _defaults:
+        public: true
+        autowire: true
+        autoconfigure: true
+
+    GraphQLByPoP\GraphQLServer\Registries\SchemaDefinitionReferenceRegistryInterface:
+        class: \GraphQLByPoP\GraphQLServer\Registries\SchemaDefinitionReferenceRegistry
+
+    PoP\ComponentModel\Schema\SchemaDefinitionServiceInterface:
+        class: \GraphQLByPoP\GraphQLServer\Schema\GraphQLSchemaDefinitionService
+
+    GraphQLByPoP\GraphQLServer\Schema\GraphQLSchemaDefinitionServiceInterface:
+        class: \GraphQLByPoP\GraphQLServer\Schema\GraphQLSchemaDefinitionService
+
+    GraphQLByPoP\GraphQLServer\Hooks\:
+        resource: '../src/Hooks/*'
+
+    GraphQLByPoP\GraphQLServer\ModuleProcessors\:
+        resource: '../src/ModuleProcessors/*'
+
+    GraphQLByPoP\GraphQLServer\RouteModuleProcessors\:
+        resource: '../src/RouteModuleProcessors/*'
+
+    GraphQLByPoP\GraphQLServer\Enums\:
+        resource: '../src/Enums/*'
+
+    GraphQLByPoP\GraphQLServer\ObjectModels\QueryRoot:
+        class: \GraphQLByPoP\GraphQLServer\ObjectModels\QueryRoot
+
+    GraphQLByPoP\GraphQLServer\ObjectModels\MutationRoot:
+        class: \GraphQLByPoP\GraphQLServer\ObjectModels\MutationRoot

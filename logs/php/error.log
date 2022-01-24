@@ -1,0 +1,102 @@
+[21-Jan-2022 12:22:27 UTC] PHP Fatal error:  Uncaught TypeError: substr() expects parameter 1 to be string, null given in /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-content/plugins/graphql-api/src/Services/MenuPages/AbstractMenuPage.php:102
+Stack trace:
+#0 /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-content/plugins/graphql-api/src/Services/MenuPages/AbstractMenuPage.php(102): substr(NULL, -17)
+#1 /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-content/plugins/graphql-api/src/Services/MenuPages/AboutMenuPage.php(35): GraphQLAPI\GraphQLAPI\Services\MenuPages\AbstractMenuPage->isCurrentScreen()
+#2 /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-content/plugins/graphql-api/src/Services/MenuPages/AbstractMenuPage.php(79): GraphQLAPI\GraphQLAPI\Services\MenuPages\AboutMenuPage->isCurrentScreen()
+#3 /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-includes/class-wp-hook.php(303): GraphQLAPI\GraphQLAPI\Services\MenuPages\AbstractMenuPage->maybeEnqueueAssets('')
+#4 /Users/spectrumone/L in /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-content/plugins/graphql-api/src/Services/MenuPages/AbstractMenuPage.php on line 102
+[21-Jan-2022 12:23:20 UTC] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to GraphQLAPI\GraphQLAPI\Services\CustomPostTypes\AbstractCustomPostType::allowGutenbergBlocksForCustomPostType() must be an instance of WP_Post, null given, called in /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-content/plugins/graphql-api/src/Services/CustomPostTypes/AbstractCustomPostType.php on line 544 and defined in /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-content/plugins/graphql-api/src/Services/CustomPostTypes/AbstractCustomPostType.php:554
+Stack trace:
+#0 /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-content/plugins/graphql-api/src/Services/CustomPostTypes/AbstractCustomPostType.php(544): GraphQLAPI\GraphQLAPI\Services\CustomPostTypes\AbstractCustomPostType->allowGutenbergBlocksForCustomPostType(true, NULL)
+#1 /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-includes/class-wp-hook.php(303): GraphQLAPI\GraphQLAPI\Services\CustomPostTypes\AbstractCustomPostType->allowGutenbergBlocksForCustomPostType in /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-content/plugins/graphql-api/src/Services/CustomPostTypes/AbstractCustomPostType.php on line 554
+[21-Jan-2022 12:23:57 UTC] PHP Fatal error:  Uncaught TypeError: substr() expects parameter 1 to be string, null given in /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-content/plugins/graphql-api/src/Services/MenuPages/AbstractMenuPage.php:102
+Stack trace:
+#0 /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-content/plugins/graphql-api/src/Services/MenuPages/AbstractMenuPage.php(102): substr(NULL, -17)
+#1 /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-content/plugins/graphql-api/src/Services/MenuPages/AboutMenuPage.php(35): GraphQLAPI\GraphQLAPI\Services\MenuPages\AbstractMenuPage->isCurrentScreen()
+#2 /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-content/plugins/graphql-api/src/Services/MenuPages/AbstractMenuPage.php(79): GraphQLAPI\GraphQLAPI\Services\MenuPages\AboutMenuPage->isCurrentScreen()
+#3 /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-includes/class-wp-hook.php(303): GraphQLAPI\GraphQLAPI\Services\MenuPages\AbstractMenuPage->maybeEnqueueAssets('')
+#4 /Users/spectrumone/L in /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-content/plugins/graphql-api/src/Services/MenuPages/AbstractMenuPage.php on line 102
+[21-Jan-2022 12:24:29 UTC] PHP Warning:  Use of undefined constant PLL_ADMIN_INC - assumed 'PLL_ADMIN_INC' (this will throw an Error in a future version of PHP) in /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-content/plugins/lingotek-translation/lingotek.php on line 798
+[21-Jan-2022 12:24:29 UTC] PHP Stack trace:
+[21-Jan-2022 12:24:29 UTC] PHP   1. {main}() /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-admin/plugins.php:0
+[21-Jan-2022 12:24:29 UTC] PHP   2. require_once() /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-admin/plugins.php:10
+[21-Jan-2022 12:24:29 UTC] PHP   3. do_action() /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-admin/admin.php:175
+[21-Jan-2022 12:24:29 UTC] PHP   4. WP_Hook->do_action() /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-includes/plugin.php:470
+[21-Jan-2022 12:24:29 UTC] PHP   5. WP_Hook->apply_filters() /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-includes/class-wp-hook.php:327
+[21-Jan-2022 12:24:29 UTC] PHP   6. Lingotek->admin_init() /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-includes/class-wp-hook.php:303
+[21-Jan-2022 12:24:29 UTC] PHP   7. Lingotek::create_first_language() /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-content/plugins/lingotek-translation/lingotek.php:735
+[21-Jan-2022 12:28:49 UTC] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to GraphQLAPI\GraphQLAPI\Services\CustomPostTypes\AbstractCustomPostType::allowGutenbergBlocksForCustomPostType() must be an instance of WP_Post, null given, called in /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-content/plugins/graphql-api/src/Services/CustomPostTypes/AbstractCustomPostType.php on line 544 and defined in /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-content/plugins/graphql-api/src/Services/CustomPostTypes/AbstractCustomPostType.php:554
+Stack trace:
+#0 /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-content/plugins/graphql-api/src/Services/CustomPostTypes/AbstractCustomPostType.php(544): GraphQLAPI\GraphQLAPI\Services\CustomPostTypes\AbstractCustomPostType->allowGutenbergBlocksForCustomPostType(true, NULL)
+#1 /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-includes/class-wp-hook.php(303): GraphQLAPI\GraphQLAPI\Services\CustomPostTypes\AbstractCustomPostType->allowGutenbergBlocksForCustomPostType in /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-content/plugins/graphql-api/src/Services/CustomPostTypes/AbstractCustomPostType.php on line 554
+[21-Jan-2022 12:38:43 UTC] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to GraphQLAPI\GraphQLAPI\Services\CustomPostTypes\AbstractCustomPostType::allowGutenbergBlocksForCustomPostType() must be an instance of WP_Post, null given, called in /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-content/plugins/graphql-api/src/Services/CustomPostTypes/AbstractCustomPostType.php on line 544 and defined in /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-content/plugins/graphql-api/src/Services/CustomPostTypes/AbstractCustomPostType.php:554
+Stack trace:
+#0 /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-content/plugins/graphql-api/src/Services/CustomPostTypes/AbstractCustomPostType.php(544): GraphQLAPI\GraphQLAPI\Services\CustomPostTypes\AbstractCustomPostType->allowGutenbergBlocksForCustomPostType(true, NULL)
+#1 /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-includes/class-wp-hook.php(303): GraphQLAPI\GraphQLAPI\Services\CustomPostTypes\AbstractCustomPostType->allowGutenbergBlocksForCustomPostType in /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-content/plugins/graphql-api/src/Services/CustomPostTypes/AbstractCustomPostType.php on line 554
+[21-Jan-2022 12:39:01 UTC] PHP Warning:  Use of undefined constant PLL_ADMIN - assumed 'PLL_ADMIN' (this will throw an Error in a future version of PHP) in /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-content/plugins/lingotek-translation/lingotek.php on line 671
+[21-Jan-2022 12:39:01 UTC] PHP Stack trace:
+[21-Jan-2022 12:39:01 UTC] PHP   1. {main}() /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-admin/plugins.php:0
+[21-Jan-2022 12:39:01 UTC] PHP   2. require_once() /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-admin/plugins.php:10
+[21-Jan-2022 12:39:01 UTC] PHP   3. require_once() /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-admin/admin.php:34
+[21-Jan-2022 12:39:01 UTC] PHP   4. require_once() /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-load.php:50
+[21-Jan-2022 12:39:01 UTC] PHP   5. require_once() /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-config.php:77
+[21-Jan-2022 12:39:01 UTC] PHP   6. do_action() /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-settings.php:578
+[21-Jan-2022 12:39:01 UTC] PHP   7. WP_Hook->do_action() /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-includes/plugin.php:470
+[21-Jan-2022 12:39:01 UTC] PHP   8. WP_Hook->apply_filters() /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-includes/class-wp-hook.php:327
+[21-Jan-2022 12:39:01 UTC] PHP   9. Lingotek->init() /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-includes/class-wp-hook.php:303
+[21-Jan-2022 12:39:01 UTC] PHP Warning:  Use of undefined constant PLL_SETTINGS - assumed 'PLL_SETTINGS' (this will throw an Error in a future version of PHP) in /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-content/plugins/lingotek-translation/lingotek.php on line 671
+[21-Jan-2022 12:39:01 UTC] PHP Stack trace:
+[21-Jan-2022 12:39:01 UTC] PHP   1. {main}() /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-admin/plugins.php:0
+[21-Jan-2022 12:39:01 UTC] PHP   2. require_once() /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-admin/plugins.php:10
+[21-Jan-2022 12:39:01 UTC] PHP   3. require_once() /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-admin/admin.php:34
+[21-Jan-2022 12:39:01 UTC] PHP   4. require_once() /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-load.php:50
+[21-Jan-2022 12:39:01 UTC] PHP   5. require_once() /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-config.php:77
+[21-Jan-2022 12:39:01 UTC] PHP   6. do_action() /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-settings.php:578
+[21-Jan-2022 12:39:01 UTC] PHP   7. WP_Hook->do_action() /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-includes/plugin.php:470
+[21-Jan-2022 12:39:01 UTC] PHP   8. WP_Hook->apply_filters() /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-includes/class-wp-hook.php:327
+[21-Jan-2022 12:39:01 UTC] PHP   9. Lingotek->init() /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-includes/class-wp-hook.php:303
+[21-Jan-2022 12:39:01 UTC] PHP Warning:  Use of undefined constant PLL_ADMIN - assumed 'PLL_ADMIN' (this will throw an Error in a future version of PHP) in /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-content/plugins/lingotek-translation/lingotek.php on line 693
+[21-Jan-2022 12:39:01 UTC] PHP Stack trace:
+[21-Jan-2022 12:39:01 UTC] PHP   1. {main}() /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-admin/plugins.php:0
+[21-Jan-2022 12:39:01 UTC] PHP   2. require_once() /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-admin/plugins.php:10
+[21-Jan-2022 12:39:01 UTC] PHP   3. require_once() /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-admin/admin.php:34
+[21-Jan-2022 12:39:01 UTC] PHP   4. require_once() /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-load.php:50
+[21-Jan-2022 12:39:01 UTC] PHP   5. require_once() /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-config.php:77
+[21-Jan-2022 12:39:01 UTC] PHP   6. do_action() /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-settings.php:578
+[21-Jan-2022 12:39:01 UTC] PHP   7. WP_Hook->do_action() /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-includes/plugin.php:470
+[21-Jan-2022 12:39:01 UTC] PHP   8. WP_Hook->apply_filters() /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-includes/class-wp-hook.php:327
+[21-Jan-2022 12:39:01 UTC] PHP   9. Lingotek->init() /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-includes/class-wp-hook.php:303
+[21-Jan-2022 12:39:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-content/plugins/lingotek-translation/lingotek.php:671) in /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-includes/functions.php on line 6712
+[21-Jan-2022 12:39:01 UTC] PHP Stack trace:
+[21-Jan-2022 12:39:01 UTC] PHP   1. {main}() /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-admin/plugins.php:0
+[21-Jan-2022 12:39:01 UTC] PHP   2. require_once() /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-admin/plugins.php:10
+[21-Jan-2022 12:39:01 UTC] PHP   3. do_action() /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-admin/admin.php:175
+[21-Jan-2022 12:39:01 UTC] PHP   4. WP_Hook->do_action() /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-includes/plugin.php:470
+[21-Jan-2022 12:39:01 UTC] PHP   5. WP_Hook->apply_filters() /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-includes/class-wp-hook.php:327
+[21-Jan-2022 12:39:01 UTC] PHP   6. send_frame_options_header() /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-includes/class-wp-hook.php:301
+[21-Jan-2022 12:39:01 UTC] PHP   7. header() /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-includes/functions.php:6712
+[21-Jan-2022 12:39:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-content/plugins/lingotek-translation/lingotek.php:671) in /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-admin/includes/misc.php on line 1310
+[21-Jan-2022 12:39:01 UTC] PHP Stack trace:
+[21-Jan-2022 12:39:01 UTC] PHP   1. {main}() /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-admin/plugins.php:0
+[21-Jan-2022 12:39:01 UTC] PHP   2. require_once() /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-admin/plugins.php:10
+[21-Jan-2022 12:39:01 UTC] PHP   3. do_action() /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-admin/admin.php:175
+[21-Jan-2022 12:39:01 UTC] PHP   4. WP_Hook->do_action() /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-includes/plugin.php:470
+[21-Jan-2022 12:39:01 UTC] PHP   5. WP_Hook->apply_filters() /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-includes/class-wp-hook.php:327
+[21-Jan-2022 12:39:01 UTC] PHP   6. wp_admin_headers() /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-includes/class-wp-hook.php:303
+[21-Jan-2022 12:39:01 UTC] PHP   7. header() /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-admin/includes/misc.php:1310
+[24-Jan-2022 05:40:07 UTC] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to GraphQLAPI\GraphQLAPI\Services\CustomPostTypes\AbstractCustomPostType::allowGutenbergBlocksForCustomPostType() must be an instance of WP_Post, null given, called in /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-content/plugins/graphql-api/src/Services/CustomPostTypes/AbstractCustomPostType.php on line 544 and defined in /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-content/plugins/graphql-api/src/Services/CustomPostTypes/AbstractCustomPostType.php:554
+Stack trace:
+#0 /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-content/plugins/graphql-api/src/Services/CustomPostTypes/AbstractCustomPostType.php(544): GraphQLAPI\GraphQLAPI\Services\CustomPostTypes\AbstractCustomPostType->allowGutenbergBlocksForCustomPostType(true, NULL)
+#1 /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-includes/class-wp-hook.php(303): GraphQLAPI\GraphQLAPI\Services\CustomPostTypes\AbstractCustomPostType->allowGutenbergBlocksForCustomPostType in /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-content/plugins/graphql-api/src/Services/CustomPostTypes/AbstractCustomPostType.php on line 554
+[24-Jan-2022 05:40:32 UTC] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to GraphQLAPI\GraphQLAPI\Services\CustomPostTypes\AbstractCustomPostType::allowGutenbergBlocksForCustomPostType() must be an instance of WP_Post, null given, called in /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-content/plugins/graphql-api/src/Services/CustomPostTypes/AbstractCustomPostType.php on line 544 and defined in /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-content/plugins/graphql-api/src/Services/CustomPostTypes/AbstractCustomPostType.php:554
+Stack trace:
+#0 /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-content/plugins/graphql-api/src/Services/CustomPostTypes/AbstractCustomPostType.php(544): GraphQLAPI\GraphQLAPI\Services\CustomPostTypes\AbstractCustomPostType->allowGutenbergBlocksForCustomPostType(true, NULL)
+#1 /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-includes/class-wp-hook.php(303): GraphQLAPI\GraphQLAPI\Services\CustomPostTypes\AbstractCustomPostType->allowGutenbergBlocksForCustomPostType in /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-content/plugins/graphql-api/src/Services/CustomPostTypes/AbstractCustomPostType.php on line 554
+[24-Jan-2022 05:40:39 UTC] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to GraphQLAPI\GraphQLAPI\Services\CustomPostTypes\AbstractCustomPostType::allowGutenbergBlocksForCustomPostType() must be an instance of WP_Post, null given, called in /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-content/plugins/graphql-api/src/Services/CustomPostTypes/AbstractCustomPostType.php on line 544 and defined in /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-content/plugins/graphql-api/src/Services/CustomPostTypes/AbstractCustomPostType.php:554
+Stack trace:
+#0 /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-content/plugins/graphql-api/src/Services/CustomPostTypes/AbstractCustomPostType.php(544): GraphQLAPI\GraphQLAPI\Services\CustomPostTypes\AbstractCustomPostType->allowGutenbergBlocksForCustomPostType(true, NULL)
+#1 /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-includes/class-wp-hook.php(303): GraphQLAPI\GraphQLAPI\Services\CustomPostTypes\AbstractCustomPostType->allowGutenbergBlocksForCustomPostType in /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-content/plugins/graphql-api/src/Services/CustomPostTypes/AbstractCustomPostType.php on line 554
+[24-Jan-2022 06:00:12 UTC] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to GraphQLAPI\GraphQLAPI\Services\CustomPostTypes\AbstractCustomPostType::allowGutenbergBlocksForCustomPostType() must be an instance of WP_Post, null given, called in /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-content/plugins/graphql-api/src/Services/CustomPostTypes/AbstractCustomPostType.php on line 544 and defined in /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-content/plugins/graphql-api/src/Services/CustomPostTypes/AbstractCustomPostType.php:554
+Stack trace:
+#0 /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-content/plugins/graphql-api/src/Services/CustomPostTypes/AbstractCustomPostType.php(544): GraphQLAPI\GraphQLAPI\Services\CustomPostTypes\AbstractCustomPostType->allowGutenbergBlocksForCustomPostType(true, NULL)
+#1 /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-includes/class-wp-hook.php(303): GraphQLAPI\GraphQLAPI\Services\CustomPostTypes\AbstractCustomPostType->allowGutenbergBlocksForCustomPostType in /Users/spectrumone/Local Sites/gatsby-wordpress/app/public/wp-content/plugins/graphql-api/src/Services/CustomPostTypes/AbstractCustomPostType.php on line 554

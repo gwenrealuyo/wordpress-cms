@@ -1,0 +1,8 @@
+services:
+    _defaults:
+        public: true
+        autowire: true
+        autoconfigure: true
+
+    PoP\QueryParsing\QueryParserInterface:
+        class: \PoP\QueryParsing\QueryParser

@@ -1,0 +1,10 @@
+services:
+    _defaults:
+        public: true
+        autowire: true
+
+    PoPSchema\CustomPostMedia\FieldResolvers\:
+        resource: '../src/FieldResolvers/*'
+
+    PoPSchema\CustomPostMedia\FieldInterfaceResolvers\:
+        resource: '../src/FieldInterfaceResolvers/*'
